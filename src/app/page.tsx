@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { ArrowDown, ArrowRight, ArrowUpRight, ChevronDown, CornerDownRight, MoveUpRight } from "lucide-react";
 import { content, type Language } from "@/lib/content";
 import ConceptForm from "./ConceptForm";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "agentxxx.ai — OnlyFans-Management & Persona-Entwicklung",
